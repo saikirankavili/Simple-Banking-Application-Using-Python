@@ -16,7 +16,7 @@ while attempts < max_attempts:
     if pin==a:
         print("Account Holder Name: Sai Kiran.ps \nAccount No: 35689 \nAccount type: Savings")
         print("1.Check Balance \n2.Money Deposite \n3.Cash Withdrawl")
-        Balance = 98653
+        Balance = 98653 
         choice=int(input("Please Choose an Option to Continue:"))
         if choice==1:
             print("Your Current Balance:",Balance)
@@ -55,5 +55,5 @@ while attempts < max_attempts:
         if attempts < max_attempts:
             print("You Have Entered Wrong Pin❌ \nPlease Try Again")
         else:
-            print("You Have Enterd the Wrong Pin for 3 Times❌.\n8🚫Your Account is Blocked🚫 \nContact the Bank🏦")
+            print("You Have Enterd the Wrong Pin for 3 Times❌\n🚫Your Account is Blocked🚫 \nContact the Bank🏦")
         
